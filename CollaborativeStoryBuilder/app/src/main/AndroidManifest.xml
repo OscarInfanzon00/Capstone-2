@@ -21,6 +21,7 @@
         </activity>
         <activity android:name="com.infanzon.collaborativestorybuilder.MainApp.RegisterActivity" />
         <activity android:name="com.infanzon.collaborativestorybuilder.MainApp.MainActivity" />
+        <activity android:name="com.infanzon.collaborativestorybuilder.StoryHandler.CollaborativeStory" />
     </application>
 
 </manifest>
