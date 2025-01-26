@@ -12,16 +12,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CollaborativeStoryBuilder"
         tools:targetApi="31">
-        <activity android:name="com.infanzon.collaborativestorybuilder.MainApp.LoginActivity"
+        <activity
+            android:name=".StoryHandler.StoryViewer"
+            android:exported="false"
+            android:label="@string/title_activity_story_viewer"
+            android:theme="@style/Theme.CollaborativeStoryBuilder.NoActionBar" />
+        <activity
+            android:name=".MainApp.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.infanzon.collaborativestorybuilder.MainApp.RegisterActivity" />
-        <activity android:name="com.infanzon.collaborativestorybuilder.MainApp.MainActivity" />
-        <activity android:name="com.infanzon.collaborativestorybuilder.StoryHandler.CollaborativeStory" />
+        <activity android:name=".MainApp.RegisterActivity" />
+        <activity android:name=".MainApp.MainActivity" />
+        <activity android:name=".StoryHandler.CollaborativeStory" />
     </application>
 
 </manifest>

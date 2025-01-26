@@ -12,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.infanzon.collaborativestorybuilder.R;
 import com.infanzon.collaborativestorybuilder.StoryHandler.CollaborativeStory;
+import com.infanzon.collaborativestorybuilder.Utils.NotificationManager;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,5 +27,13 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, CollaborativeStory.class);
             startActivity(intent);
         });
+
+        NotificationManager.getInstance().showNotification(
+                this,
+                "Welcome to Collaborative Story Builder!",
+                R.drawable.ic_notification,
+                3000
+        );
+
     }
 }
