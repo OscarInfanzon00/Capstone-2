@@ -1,7 +1,7 @@
 # Capstone-2
 Collaborative Story Builder
 
-#User Stories
+# User Stories
 Sprint 1:
 - 1	Set and configure the Github repo for the project.												
 - 2	Create the main project in Android Studio and configure all the basic libraries. Submit the project to the Github repo.												
