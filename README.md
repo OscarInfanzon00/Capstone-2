@@ -3,8 +3,8 @@ Collaborative Story Builder
 
 #User Stories
 Sprint 1:
-1	Set and configure the Github repo for the project.												
-2	Create the main project in Android Studio and configure all the basic libraries. Submit the project to the Github repo.												
+- 1	Set and configure the Github repo for the project.												
+- 2	Create the main project in Android Studio and configure all the basic libraries. Submit the project to the Github repo.												
 3	Create a project in Firebase to store and manage the data in the cloud in a safe and organized way. Link this project with the Android app in the configs. 												
 4	Create all the necessary Data classes in the Android Studio project with their respective attributes. 												
 5	User Authentication: As a user, I want to create an account and log in so that I can access my stories and collaborations.												
